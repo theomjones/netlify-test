@@ -5,3 +5,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  # Change this path with the path to your repository
+  GO_IMPORT_PATH = "github.com/theomjones/netlify-test"
